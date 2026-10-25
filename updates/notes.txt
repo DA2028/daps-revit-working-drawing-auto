@@ -1,0 +1,7 @@
+What's new in 2.3.0:
+- Updates now install automatically (no reinstalling)
+- Ribbon icons + new Help panel: Dim Style, How to Use, Check Updates
+- Your dimension style is remembered in every project
+- Clear messages when a click doesn't work (no more silent fails)
+- Dimension Studio and Clear Auto-Dims now work in Section views
+- Ctrl+Z undoes one click at a time
