@@ -22,7 +22,7 @@ $addin = @'
 '@
 
 $count = 0
-foreach ($y in "2021", "2022", "2023", "2024") {
+foreach ($y in "2021", "2022", "2023", "2024", "2025") {
     if (-not (Test-Path "C:\Program Files\Autodesk\Revit $y")) { continue }
     $dir = Join-Path $env:APPDATA "Autodesk\Revit\Addins\$y"
     New-Item -ItemType Directory -Force $dir | Out-Null
@@ -38,5 +38,5 @@ foreach ($y in "2021", "2022", "2023", "2024") {
     $count++
 }
 
-if ($count -eq 0) { Write-Host "No Revit 2021-2024 found in C:\Program Files\Autodesk." -ForegroundColor Yellow }
+if ($count -eq 0) { Write-Host "No Revit 2021-2025 found in C:\Program Files\Autodesk." -ForegroundColor Yellow }
 else { Write-Host "`nDone! Open (or restart) Revit and look for the 'Daps Working Drawing Auto' tab. Updates install automatically." -ForegroundColor Cyan }
