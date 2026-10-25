@@ -1,3 +1,7 @@
-What's new in 2.4.0:
-- Now works in Revit 2025 too
-- No-exe install option for PCs that block Setup.exe
+What's new in 2.5.0:
+- FIXED: Dimension Studio crash (Index was outside the bounds of the array)
+- Exterior: new openings string (windows, doors and piers) + wall steps + overall, on all 4 sides
+- FIXED: East side dimensions
+- Sections: sill and head heights, roof/parapet top, overall height; works on long and cross sections
+- Sections only dimension walls that are actually cut
+- One part failing no longer cancels the whole run
