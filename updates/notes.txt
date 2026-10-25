@@ -1,7 +1,5 @@
-What's new in 2.5.0:
-- FIXED: Dimension Studio crash (Index was outside the bounds of the array)
-- Exterior: new openings string (windows, doors and piers) + wall steps + overall, on all 4 sides
-- FIXED: East side dimensions
-- Sections: sill and head heights, roof/parapet top, overall height; works on long and cross sections
-- Sections only dimension walls that are actually cut
-- One part failing no longer cancels the whole run
+What's new in 2.5.1:
+- Section Heights now works even when levels are hidden in the section (uses the floor and roof slabs it cuts)
+- Sections: sill and head heights, floor-to-floor, roof top and overall height on the sides
+- Auto-update retries if the internet is not ready when Revit starts
+- Includes all 2.5.0 fixes (Dimension Studio crash, East side, openings string)
